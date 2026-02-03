@@ -5,5 +5,20 @@ The application allows authenticated users to search for specific items, review 
 
 By focusing on completed sales rather than active listings, FunkoLens aims to deliver transparent, data-driven insights that support informed buying, selling and long-term value tracking decisions.
 
+## Architecture Overview
+FunkoLens follows a client-server architecture with an Angular-based PWA frontend and a backend service responsible for data retrieval, authentication, and persistence. External marketplace data is accessed exclusively through the backend to ensure security and data consistency.
+
+## Key Features
+- Search and analysis of completed eBay sales
+- Pricing statistics (average, median, trimmed mean)
+- Profit or loss estimation
+- User accounts and personal collections
+- Collection value tracking
+
+## Tech Stack
+- Frontend: Angular (PWA)
+- Backend: API service
+- Data source: eBay completed sales
+
 > Note: This project is intended for private and educational purposes.
 > All data is sourced from publicly available marketplace information.
